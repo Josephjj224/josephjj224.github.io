@@ -267,7 +267,9 @@ section {
 #about {
   position: relative;
 }
-
+.icon.arrow {
+  display: none;
+}
 .amazon-logo {
   width: 80px;  /* Increase or decrease as needed */
   height: auto; /* Maintain aspect ratio */
