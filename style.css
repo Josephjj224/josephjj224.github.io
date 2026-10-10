@@ -9,19 +9,35 @@
 .education-content {
   text-align: center;
 }
-
-.school {
+.education-content {
+  margin-top: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
 }
 
-.school-logo {
+.education-content .school {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.education-content .school-logo {
   width: 50px;
   height: 50px;
   object-fit: contain;
+  flex-shrink: 0;
 }
+
+.education-content .school p {
+  margin: 0;
+  text-align: left;
+}
+
 .details-container p {
   margin: 10px 0;
 }
